@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "721609062983",
+    "firebase_url": "https://careernaksha-47c94.firebaseio.com",
+    "project_id": "careernaksha-47c94",
+    "storage_bucket": "careernaksha-47c94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721609062983:android:e99a660046db2e5b",
+        "android_client_info": {
+          "package_name": "com.careernaksha.careernaksha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721609062983-kegjkfmfclu192qkcljj0ed63jkgad6n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.careernaksha.careernaksha",
+            "certificate_hash": "f2c424465f962adb1f0d13b90d9a4b58972fb349"
+          }
+        },
+        {
+          "client_id": "721609062983-nr824m6sdsofk3fn2crv5rmsdqqbdqks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhLeq-QFOaf732sfmEhrDRBOkR7gUvkQI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721609062983-nr824m6sdsofk3fn2crv5rmsdqqbdqks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

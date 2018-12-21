@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/h1">
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="UserNAME"
+        android:inputType="text"
+        android:layout_marginLeft="30dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:textColorHint="#f5eeee"/>
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/e1"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:textColorHint="#f5f1f1"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/bl1"
+        android:layout_below="@id/e2"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:text="LOGIN"
+        android:textColor="#fcf9f9"
+        android:background="@drawable/custom"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:layout_below="@id/bl1"
+        android:text="Not Register Yet? "
+        android:textSize="25sp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#080808"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/bl2"
+        android:layout_below="@id/bl1"
+        android:layout_toRightOf="@id/tv"
+        android:textStyle="bold"
+        android:textSize="20sp"
+
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="15dp"
+        android:text="Register"
+        android:textColor="#f7f3f3"
+        android:background="@drawable/custom"/>
+
+
+
+</RelativeLayout>

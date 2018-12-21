@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".HomeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+       <ImageView
+           android:layout_width="385dp"
+           android:layout_height="345dp"
+           android:src="@drawable/h2"/>
+        <Button
+            android:id="@+id/b"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SIGN UP"
+            android:background="#FFFFFF"
+            android:textColor="#20b2aa"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="385dp"
+            android:layout_height="480dp"
+            android:src="@drawable/h1"/>
+        <ImageView
+            android:layout_width="385dp"
+            android:layout_height="580dp"
+            android:src="@drawable/h3"/>
+        <ImageView
+            android:layout_width="422dp"
+            android:layout_height="212dp"
+            android:src="@drawable/h4"/>
+        <ImageView
+            android:layout_width="390dp"
+            android:layout_height="590dp"
+            android:src="@drawable/h5"/>
+        <ImageView
+            android:layout_width="390dp"
+            android:layout_height="590dp"
+            android:src="@drawable/h6"/>
+        <ImageView
+            android:layout_width="405dp"
+            android:layout_height="155dp"
+            android:src="@drawable/h7"/>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="330dp"
+                    android:layout_height="460dp"
+                    android:src="@drawable/h8"/>
+                <ImageView
+                    android:layout_width="310dp"
+                    android:layout_height="460dp"
+                    android:src="@drawable/h9"/>
+                <ImageView
+                    android:layout_width="310dp"
+                    android:layout_height="460dp"
+                    android:src="@drawable/h10"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+
+</ScrollView>

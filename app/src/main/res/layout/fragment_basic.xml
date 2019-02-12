@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".BasicFragment"
+    android:background="@drawable/backgroundresponsive"
+    >
+
+  <android.support.v7.widget.CardView
+      android:layout_width="300dp"
+      android:layout_height="460dp"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      android:layout_marginTop="10dp"
+      app:cardCornerRadius="10dp"
+      >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@drawable/regbut"
+        android:id="@+id/linear"
+        android:orientation="vertical">
+      <TextView
+          android:layout_width="80dp"
+          android:layout_height="75dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="110dp"
+          android:padding="20dp"
+          android:text="01"
+          android:textStyle="bold"
+          android:textColor="#fff"
+          android:textSize="32sp"/>
+      <TextView
+          android:layout_width="150dp"
+          android:layout_height="40dp"
+          android:layout_marginLeft="80dp"
+          android:padding="10dp"
+          android:text="Basic Infromation"
+          android:textSize="15sp"
+          android:textColor="#fff"/>
+
+
+
+    </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="265dp"
+            android:layout_height="55dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="20dp"
+            android:id="@+id/ivedit1"
+            android:src="@drawable/regbut"/>
+          <android.support.design.widget.TextInputLayout
+              android:layout_width="261dp"
+              android:layout_height="45dp"
+           app:layout_constraintTop_toTopOf="parent"
+android:gravity="center"
+              app:layout_constraintLeft_toLeftOf="parent"
+              android:layout_marginTop="24.5dp"
+              app:layout_constraintRight_toRightOf="parent">
+          <EditText
+              android:layout_width="265dp"
+              android:layout_height="55dp"
+              app:layout_constraintLeft_toLeftOf="parent"
+              android:id="@+id/edit1"
+              android:hint="  Name"
+              android:textSize="14sp"
+              app:layout_constraintRight_toRightOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+              android:layout_marginTop="12.5dp"
+              android:background="#fff"
+              />
+          </android.support.design.widget.TextInputLayout>
+          <ImageView
+              android:layout_width="265dp"
+              android:layout_height="55dp"
+              app:layout_constraintLeft_toLeftOf="parent"
+              app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ivedit1"
+              android:layout_marginTop="5dp"
+              android:id="@+id/ivedit2"
+              android:src="@drawable/regbut"/>
+          <android.support.design.widget.TextInputLayout
+              android:layout_width="261dp"
+              android:layout_height="54dp"
+              app:layout_constraintTop_toBottomOf="@id/ivedit1"
+              app:layout_constraintLeft_toLeftOf="parent"
+              android:layout_marginTop="0dp"
+
+              app:layout_constraintRight_toRightOf="parent">
+          <EditText
+              android:layout_width="265dp"
+              android:layout_height="55dp"
+              app:layout_constraintLeft_toLeftOf="parent"
+              android:id="@+id/edit2"
+              android:hint="  Email"
+
+              android:textSize="14sp"
+              app:layout_constraintRight_toRightOf="parent"
+              app:layout_constraintTop_toBottomOf="@id/ivedit1"
+              android:layout_marginTop="12dp"
+              android:background="#fff"
+              />
+          </android.support.design.widget.TextInputLayout>
+          <ImageView
+              android:layout_width="265dp"
+              android:layout_height="55dp"
+              app:layout_constraintLeft_toLeftOf="parent"
+              app:layout_constraintRight_toRightOf="parent"
+              app:layout_constraintTop_toBottomOf="@id/ivedit2"
+              android:layout_marginTop="5dp"
+              android:id="@+id/ivedit3"
+              android:src="@drawable/regbut"/>
+          <android.support.design.widget.TextInputLayout
+              android:layout_width="261dp"
+              android:layout_height="54dp"
+              app:layout_constraintTop_toBottomOf="@id/ivedit2"
+              app:layout_constraintLeft_toLeftOf="parent"
+              android:layout_marginTop="0dp"
+              app:layout_constraintRight_toRightOf="parent">
+          <EditText
+              android:layout_width="262dp"
+              android:layout_height="46dp"
+              app:layout_constraintLeft_toLeftOf="parent"
+              android:id="@+id/edit3"
+              android:textSize="14sp"
+              android:hint="  Date of Birth"
+              app:layout_constraintRight_toRightOf="parent"
+              app:layout_constraintTop_toBottomOf="@id/ivedit2"
+              android:layout_marginTop="10dp"
+              android:background="#fff"
+              />
+          </android.support.design.widget.TextInputLayout>
+          <ImageView
+              android:layout_width="265dp"
+              android:layout_height="55dp"
+              app:layout_constraintLeft_toLeftOf="parent"
+              app:layout_constraintRight_toRightOf="parent"
+              app:layout_constraintTop_toBottomOf="@id/ivedit3"
+              android:layout_marginTop="5dp"
+              android:id="@+id/ivedit4"
+              android:src="@drawable/regbut"/>
+          <android.support.design.widget.TextInputLayout
+              android:layout_width="261dp"
+              android:layout_height="55dp"
+              app:layout_constraintTop_toBottomOf="@id/ivedit3"
+              app:layout_constraintLeft_toLeftOf="parent"
+              android:layout_marginTop="0dp"
+              app:layout_constraintRight_toRightOf="parent"
+
+              >
+          <EditText
+              android:layout_width="265dp"
+              android:layout_height="55dp"
+              app:layout_constraintLeft_toLeftOf="parent"
+              android:id="@+id/edit4"
+              android:hint="  Phone Number"
+              android:textSize="14sp"
+              app:layout_constraintRight_toRightOf="parent"
+              app:layout_constraintTop_toBottomOf="@id/ivedit3"
+              android:layout_marginTop="12dp"
+              android:background="#fff"
+              />
+          </android.support.design.widget.TextInputLayout>
+
+          <Button
+              android:layout_width="180dp"
+              android:layout_height="45dp"
+              android:id="@+id/btn"
+              app:layout_constraintTop_toBottomOf="@id/ivedit4"
+              android:layout_marginTop="10dp"
+              app:layout_constraintLeft_toLeftOf="parent"
+              app:layout_constraintRight_toRightOf="parent"
+              android:background="@drawable/regbut"
+              android:text="Save and Proceed"
+              android:textColor="#fff"
+              android:textStyle="bold"/>
+
+        </android.support.constraint.ConstraintLayout>
+
+
+      </LinearLayout>
+
+    </LinearLayout>
+
+  </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

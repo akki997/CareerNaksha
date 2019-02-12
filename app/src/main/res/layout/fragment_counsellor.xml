@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CounsellorFragment"
+    android:background="@color/colorPrimaryDark"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+  <android.support.v7.widget.CardView
+      android:id="@+id/cview1"
+      android:layout_width="330dp"
+      android:layout_height="150dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="10dp"
+      android:padding="10dp">
+
+      <LinearLayout
+          android:layout_width="150dp"
+          android:layout_height="30dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="10dp">
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:text="NIMISH GOPAL"
+              android:textStyle="bold"
+              android:textSize="20sp"
+              android:textColor="#0d0c0c"/>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="50dp">
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginTop="10dp"
+              android:text="Founder and Director at CareerNaksha, MBA from Drucker School, USA, B.Tech IIT Roorkee"
+              android:textColor="#0d0c0c"
+              android:textSize="20sp"/>
+
+
+      </LinearLayout>
+
+
+
+  </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cview2"
+        android:layout_width="330dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SHIKHA SINDHU"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#0d0c0c"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="International Certified TIFF, Leadership Coach and Talent Development, MA and BA in Psychology"
+                android:textColor="#0d0c0c"
+                android:textSize="20sp"/>
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cview3"
+        android:layout_width="330dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SUMIT CHAUDHARI"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#0d0c0c"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="International Consultant and Trainer, MD Third Millennium Business"
+                android:textColor="#0d0c0c"
+                android:textSize="20sp"/>
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cview4"
+        android:layout_width="330dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SHIVA KAKKAR"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#0d0c0c"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Organizational Behaviour and Leadership Expert from IIM-A"
+                android:textColor="#0d0c0c"
+                android:textSize="20sp"/>
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cview5"
+        android:layout_width="330dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="DEEPA MOHAMMED"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#0d0c0c"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Previously HR Director, British Council, LexisNexis, and MBA from XLRI"
+                android:textColor="#0d0c0c"
+                android:textSize="20sp"/>
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

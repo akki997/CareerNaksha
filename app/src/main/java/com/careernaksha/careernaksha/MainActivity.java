@@ -5,9 +5,13 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
+public class MainActivity extends AppCompatActivity {
+    FirebaseUser user;
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -23,5 +27,15 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
+   /* @Override
+    protected void onStart() {
+        super.onStart();
+        user= FirebaseAuth.getInstance().getCurrentUser();
+        if(user!=null)
+        {
+            Intent i=new Intent(MainActivity.this,ProfileActivity.class);
+            startActivity(i);
+            finish();
+        }
+    }*/
 }

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".BasicFragment"
+    android:background="#15ba9c"
+    >
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/btn">
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:hint="Gender"
+            android:id="@+id/ep1"
+            android:background="@drawable/btn"
+            android:textColorHint="#439fc1"
+            android:layout_marginTop="50dp"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/btn">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/ep2"
+            android:hint="Marital Status"
+            android:background="@drawable/btn"
+            android:textColorHint="#439fc1"
+            android:layout_marginTop="50dp"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/btn">
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/ep3"
+            android:hint="Number of Family Members"
+            android:background="@drawable/btn"
+            android:textColorHint="#439fc1"
+            android:layout_marginTop="50dp"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/btn">
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/ep4"
+            android:hint="Facebook"
+            android:background="@drawable/btn"
+            android:textColorHint="#439fc1"
+            android:layout_marginTop="50dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/btn">
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/ep5"
+            android:hint="Linkedin"
+            android:background="@drawable/btn"
+            android:textColorHint="#439fc1"
+            android:layout_marginTop="50dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/btn">
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/ep6"
+            android:hint="Twitter"
+            android:background="@drawable/btn"
+            android:textColorHint="#439fc1"
+            android:layout_marginTop="50dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/btn">
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/ep7"
+            android:hint="Current Ocupation"
+            android:background="@drawable/btn"
+            android:textColorHint="#439fc1"
+            android:layout_marginTop="50dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/btn">
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/ep8"
+            android:hint="Residental Address"
+            android:background="@drawable/btn"
+            android:textColorHint="#439fc1"
+            android:layout_marginTop="50dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/btn">
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/ep9"
+            android:hint="Family Income"
+            android:background="@drawable/btn"
+            android:textColorHint="#439fc1"
+            android:layout_marginTop="50dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/btn">
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/ep10"
+            android:hint="Skills"
+            android:background="@drawable/btn"
+            android:textColorHint="#439fc1"
+            android:layout_marginTop="50dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/btn">
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/ep11"
+            android:hint="Extra Curricular"
+            android:background="@drawable/btn"
+            android:textColorHint="#439fc1"
+            android:layout_marginTop="50dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/btn">
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/ep12"
+            android:hint="Highest Education Qualification"
+            android:background="@drawable/btn"
+            android:textColorHint="#439fc1"
+            android:layout_marginTop="50dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/bp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"
+        android:text="Save And Proceed"
+        android:textColor="#439fc1"
+        android:background="@drawable/btn"/>
+
+</LinearLayout>

@@ -1,11 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".ProfileActivity"
-    tools:showIn="@layout/app_bar_profile">
+    android:id="@+id/content"
+    tools:showIn="@layout/app_bar_profile"
+    android:background="@drawable/backgroundresponsive">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/main_icon"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:id="@+id/imagelauncher"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            app:layout_constraintTop_toBottomOf="@id/imagelauncher"
+            android:id="@+id/t"
+            app:layout_constraintRight_toRightOf="parent"
+             app:layout_constraintLeft_toLeftOf="parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Hello"
+
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/ivprofilebuilder"
+            app:layout_constraintTop_toBottomOf="@id/t"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/profilebuilder"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/tvprofilebuilder"
+            app:layout_constraintTop_toBottomOf="@id/ivprofilebuilder"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+
+            android:gravity="center"
+            android:text="Profile Builder | CareerPatri"
+            android:textColor="#fff"
+            android:textSize="16.5sp"/>
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/ivguidance"
+                app:layout_constraintTop_toBottomOf="@id/tvprofilebuilder"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/guidance"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:id="@+id/tvguidance"
+                app:layout_constraintTop_toBottomOf="@id/ivguidance"
+                app:layout_constraintRight_toRightOf="parent"
+               app:layout_constraintLeft_toLeftOf="parent"
+                android:gravity="center"
+                android:text="Guidance | CareerDisha"
+                android:textColor="#fff"
+                android:textSize="16.5sp"/>
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/ivjob"
+            app:layout_constraintTop_toBottomOf="@id/tvguidance"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/job"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/tvjob"
+            app:layout_constraintTop_toBottomOf="@id/ivjob"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:text="Job/Emplyment | CareerRozgar"
+            android:textColor="#fff"
+            android:textSize="16.5sp"/>
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/ivcounselling"
+            app:layout_constraintTop_toBottomOf="@id/tvjob"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/counseling"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/tvcounselling"
+            app:layout_constraintTop_toBottomOf="@id/ivcounselling"
+            app:layout_constraintRight_toRightOf="parent"
+app:layout_constraintLeft_toLeftOf="parent"
+            android:gravity="center"
+            android:text="Counseling | CareerPramash"
+            android:textColor="#fff"
+            android:textSize="16.5sp"/>
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/ivalumini"
+            app:layout_constraintTop_toBottomOf="@id/tvcounselling"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/alumini"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/tvalumini"
+            app:layout_constraintTop_toBottomOf="@id/ivalumini"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="Alumini/Experience connect | CareerSampark"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="16.5sp"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintTop_toBottomOf="@id/tvalumini"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
+    </FrameLayout>
 
 </android.support.constraint.ConstraintLayout>
+
